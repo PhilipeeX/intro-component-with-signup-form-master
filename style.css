@@ -134,6 +134,9 @@ figcaption em {
     color: var(--Red);
     font-weight: 600;
 }
+input:-moz-ui-invalid {
+    border: 2px solid red;
+  }
 
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } */
